@@ -14,7 +14,7 @@ Montre les relations entre nos Agrégats, Entités et Value Objects.
 
 Cycle de vie complet d'une requête HTTP, démontrant le respect des couches.
 
-![Page Demo](images/sequence.png)
+![Page Demo](images/Sequence.png)
 
 > _Diagrame de sequence_
 
