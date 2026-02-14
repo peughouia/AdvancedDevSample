@@ -28,7 +28,7 @@ L'API sera disponible sur http://localhost:5000.
 ### 2. S'authentifier (JWT)
  - Allez sur l'interface Swagger : http://localhost:5000/swagger/
 
-![Page Demo](images/swagger.png)
+![Page Demo](docs/images/swagger.png)
 
 > _Liste des Endpoint developpé_
 
