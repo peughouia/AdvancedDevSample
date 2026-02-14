@@ -26,6 +26,9 @@ builder.Services.AddSwaggerGen(c =>
 builder.Services.AddSingleton<IProductRepository, InMemoryProductRepository>();
 builder.Services.AddScoped<IProductService, ProductService>();
 
+builder.Services.AddSingleton<IOrderRepository, InMemoryOrderRepository>();
+builder.Services.AddScoped<IOrderService, OrderService>();
+
 var app = builder.Build();
 
 // 1. On enlève la condition "if (app.Environment.IsDevelopment())"
@@ -43,4 +46,4 @@ app.UseMiddleware<ExceptionHandlingMiddleware>();
 
 app.UseAuthorization();
 app.MapControllers();
-app.Run("http://localhost:5000");
+app.Run();
