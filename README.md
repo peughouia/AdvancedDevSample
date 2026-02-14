@@ -49,6 +49,6 @@ L'API sera disponible sur http://localhost:5000.
 # 📚 Structure de la Documentation
 Pour explorer l'architecture en profondeur, consultez les fichiers dédiés :
 
-- 📄 [DOCUMENTATION_TECHNIQUE.md](DOCUMENTATION_TECHNIQUE.md) : Plongée dans le DDD, les couches et les modèles de données.
-- 📄 [DIAGRAMMES.md](DIAGRAMMES.md) : Représentations visuelles des flux et de l'architecture.
-- 📄 [AUTHENTICATION.md](AUTHENTICATION.md) : Guide de gestion des tokens JWT et de la sécurité.
+- 📄 [DOCUMENTATION_TECHNIQUE.md](docs/DOCUMENTATION_TECHNIQUE.md) : Plongée dans le DDD, les couches et les modèles de données.
+- 📄 [DIAGRAMMES.md](docs/DIAGRAMMES.md) : Représentations visuelles des flux et de l'architecture.
+- 📄 [AUTHENTICATION.md](docs/AUTHENTICATION.md) : Guide de gestion des tokens JWT et de la sécurité.
